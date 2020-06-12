@@ -5,21 +5,14 @@
  *
  * Return: always 0.
  */
-
 int main(void)
 {
-	char n;
-	char m;
+	char num;
 
-	for (n = 'a'; n <= 'z'; n++)
+	for (num = '0'; num <= '9'; num++)
 	{
-		putchar(n);
+		putchar(num);
 	}
-	for (m = 'A'; m <= 'Z'; m++)
-	{
-		putchar(m);
-	}
-
 	putchar('\n');
 	return (0);
 }
