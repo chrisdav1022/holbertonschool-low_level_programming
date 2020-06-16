@@ -2,13 +2,13 @@
 
 /**
  * times_table - times table init in 0
- *
- * Return: Returns none.
  */
 
 void times_table(void)
 {
-	int n, n1, nm;
+	int n;
+	int n1;
+	int nm;
 
 	for (n = 0; n <= 9; n++)
 	{
