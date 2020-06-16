@@ -2,6 +2,8 @@
 /**
  *print_sign - print sing
  *
+ * @n: print sign 1, -1, 0.
+ *
  *Return: Returns 0.
  */
 int print_sign(int n)
