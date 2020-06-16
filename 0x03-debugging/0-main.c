@@ -2,7 +2,6 @@
 
 /**
  * main - test the function
- *
  * Return: always 0.
  */
 
