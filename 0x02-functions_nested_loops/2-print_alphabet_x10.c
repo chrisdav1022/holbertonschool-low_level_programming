@@ -1,8 +1,9 @@
 #include "holberton.h"
 
 /**
- *print_alphabet_x10 - print 10 alphabet.
+ * print_alphabet_x10 - print 10 alphabet.
  *
+ * Return: none
  */
 
 void print_alphabet_x10(void)
@@ -16,6 +17,6 @@ void print_alphabet_x10(void)
 		{
 			_putchar(abc);
 		}
+		_putchar ('\n');
 	}
-	_putchar ('\n');
 }
