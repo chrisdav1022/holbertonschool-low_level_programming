@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- *times_table - Entry point
+ * times_table - times table init in 0
  *
- *Return: Returns 0 upon successful run.
+ * Return: Returns none.
  */
 
 void times_table(void)
