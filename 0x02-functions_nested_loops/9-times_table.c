@@ -1,7 +1,6 @@
 #include "holberton.h"
 
 /**
- *
  * times_table - Print times table
  *
  */
