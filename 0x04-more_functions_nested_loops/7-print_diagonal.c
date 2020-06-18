@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * print_diagonal - print diagonal 
+ * print_diagonal - print diagonal
  * @n: print diagonal and spaces
  */
 
