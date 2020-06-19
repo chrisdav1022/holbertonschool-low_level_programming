@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - print triangle of #
- *
+ * size: triangle
  * Return: always 0
  */
 
@@ -18,7 +18,7 @@ void print_triangle(int size)
 		{
 			for (n = 0; n < size; n++)
 			{
-				if (n < size - i -1)
+				if (n < size - i - 1)
 					_putchar(' ');
 				else
 					_putchar('#');
