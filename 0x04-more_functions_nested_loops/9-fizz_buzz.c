@@ -12,7 +12,7 @@ int main(void)
 
 	for (c = 1; c < 100; c++)
 	{
-		if ((c % 3) == 0 && (c % 5) == 0)
+		if ((c % 3 == 0) && (c % 5 == 0))
 		{
 			printf("FizzBuzz ");
 		}
@@ -29,6 +29,6 @@ int main(void)
 			printf("%d ", c);
 		}
 	}
-	printf("Buzz \n");
+	printf("Buzz\n");
 	return (0);
 }
