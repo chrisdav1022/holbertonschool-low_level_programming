@@ -2,7 +2,7 @@
 
 /**
  * print_square - print square of numeral
- * @
+ * @size: print #
  *
  */
 
