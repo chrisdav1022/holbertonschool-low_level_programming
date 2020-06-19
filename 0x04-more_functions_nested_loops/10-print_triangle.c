@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - print triangle of #
- * size: triangle
+ * @size: triangle
  * Return: always 0
  */
 
