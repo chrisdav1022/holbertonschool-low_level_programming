@@ -24,15 +24,11 @@ int main(void)
 		{
 			printf("Fizz ");
 		}
-		else if (c == 100)
-		{
-			printf("Buzz");
-		}
 		else
 		{
 			printf("%d ", c);
 		}
 	}
-	printf("\n");
+	printf("Buzz \n");
 	return (0);
 }
