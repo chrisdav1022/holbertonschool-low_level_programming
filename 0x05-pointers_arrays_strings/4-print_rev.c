@@ -1,4 +1,4 @@
-#incluude "holberton.h"
+#include "holberton.h"
 
 /**
  * print_rev - print rev array
