@@ -1,11 +1,9 @@
 #include "holberton.h"
-
 /**
- * _puts - print the strings.
+ * _puts - print the strings on array.
  *
- * @srt: the string to print.
+ * @str: the pointer of the value in array.
  */
-
 void _puts(char *str)
 {
 	int a;
