@@ -2,7 +2,7 @@
 
 /**
  * _strcat - strings
- * @dest: destination 
+ * @dest: destination
  * @src: pointer char
  * Return: pointer to dest
  */
