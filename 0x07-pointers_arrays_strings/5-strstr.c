@@ -5,21 +5,24 @@
  *@needle: nombre de la subcadena
  *Return: retorna el valor total de la subcadena
  */
+
 char *_strstr(char *haystack, char *needle)
 {
-	char *a = 0;
-	char *b = 0;
+	char *a, *b;
 
-	while (haystack[a] != '\0')
+	while (*haystack != '\0')
 	{
-		if (needle[b] != '\0' && haystack[a] == needle[b])
-			b++;
-		else
-			break;
-		a++;
-	}
-	if (needle[b] == '\0')
-		return (haystack + (a - b));
+		a = haystack;
+		b = needle;
 
-	return (0);
+		while (*b == *haystack && *b != '\0' && *haystack != '\0')
+		{
+			haystack++;
+			b++;
+		}
+		if (*b == '\0')
+			return (a);
+		haystack = c + 1;
+	}
+	return (NULL);
 }
