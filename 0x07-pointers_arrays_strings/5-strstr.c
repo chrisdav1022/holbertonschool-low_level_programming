@@ -7,8 +7,8 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	int *a = 0;
-	int *b = 0;
+	char *a = 0;
+	char *b = 0;
 
 	while (haystack[a] != '\0')
 	{
