@@ -1,4 +1,7 @@
 #include "holberton.h"
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
  * alloc_grid - check the code for Holberton School students.
  *@width: the variable
