@@ -1,4 +1,4 @@
-include "holberton.h"
+#include "holberton.h"
 /**
  * leet - check the code for Holberton School students.
  *@n: the variable
