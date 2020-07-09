@@ -1,19 +1,19 @@
-#include "holberton.h"
-#include <stdio.h>
 #include <stdlib.h>
+#include "holberton.h"
+
 /**
  * free_grid - check the code for Holberton School students.
  *@grid: the variable
  *@height: another variable
  *Return: dest
  */
+
 void free_grid(int **grid, int height)
 {
-	int a;
+	int i;
 
-	for (a = 0; a < height; a++)
-	{
-		free(*(grid + a));
-	}
+	for (i = 0; i < height; i++)
+		free(grid[i]);
+
 	free(grid);
 }
