@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include <stdlib.h>
+
 /**
  * free_grid - free up grid
  *@grid:pointer to pointer
@@ -14,5 +14,4 @@ void free_grid(int **grid, int height)
 		free(*(grid + c));
 	}
 	free(grid);
-
 }
