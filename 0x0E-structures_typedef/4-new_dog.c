@@ -22,12 +22,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (name && !dog1->name)
 		return (free(dog1), NULL);
 
-	dog1->age = age;
-
 	dog1->owner = _strdup(owner);
 
 	if (owner && !dog1->owner)
 		return (free(dog1->name), free(dog1), NULL);
+
+	dog1->age = age;
 
 	return (dog1);
 }
