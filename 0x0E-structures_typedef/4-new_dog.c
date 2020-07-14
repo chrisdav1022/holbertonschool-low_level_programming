@@ -1,4 +1,5 @@
 #include "dog.h"
+#include <stdlib.h>
 /**
  * new_dog - pointer the new dog
  * @name:pointer to name the dog
@@ -6,6 +7,7 @@
  * @owner: name owner of the dog
  * Return: return value to pointer and malloc
  */
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *dog1;
