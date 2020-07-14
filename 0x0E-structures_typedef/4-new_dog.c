@@ -10,32 +10,38 @@
 
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *dog1;
+	dog_t *b;
 
-	dog1 = malloc(sizeof(dog_t));
+	b = malloc(sizeof(dog_t));
 
-	if (!dog1)
+	if (!b)
+	{
 		return (NULL);
+	}
 
-	dog1->name = _strdup(name);
+	b->name = _strdup(name);
 
-	if (name && !dog1->name)
-		return (free(dog1), NULL);
+	if (name && !b->name)
+	{
+		return (free(b), NULL);
+	}
 
-	dog1->owner = _strdup(owner);
+	b->age = age;
 
-	if (owner && !dog1->owner)
-		return (free(dog1->name), free(dog1), NULL);
+	b->owner = _strdup(owner);
 
-	dog1->age = age;
+	if (owner && !b->owner)
+	{
+		return (free(b->name), free(b), NULL);
+	}
 
-	return (dog1);
+	return (b);
 }
 
 /**
  * *_strdup - duplicate a string
- *@str: string pointer
- *Return:return value NULL and pointer a
+ * @str: string pointer
+ * Return:return value NULL and pointer a
  */
 char *_strdup(char *str)
 {
