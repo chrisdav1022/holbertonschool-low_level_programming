@@ -1,6 +1,6 @@
 #include "dog.h"
 /**
- * *new_dog - pointer the new dog
+ * new_dog - pointer the new dog
  * @name:pointer to name the dog
  * @age: age the dog
  * @owner: name owner of the dog
