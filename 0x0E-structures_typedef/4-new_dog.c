@@ -1,5 +1,6 @@
 #include "dog.h"
 #include <stdlib.h>
+
 /**
  * new_dog - pointer the new dog
  * @name:pointer to name the dog
@@ -39,28 +40,18 @@ dog_t *new_dog(char *name, float age, char *owner)
  */
 char *_strdup(char *str)
 {
-	int size = 0;
-	char *p;
+	int length = 0;
+	char *ret;
 
-	if (str == 0)
-	{
+	if (str == NULL)
 		return (NULL);
-	}
-
-	while (str[size])
-	{
-		size++;
-	}
-
-	p = malloc(sizeof(char) * size + 1);
-
-	if (p == NULL)
-	{
+	while (*str++)
+		length++;
+	ret = malloc(sizeof(char) * (length + 1));
+	if (!ret)
 		return (NULL);
-	}
+	for (length++; length--;)
+		ret[length] = *--str;
+	return (ret);
 
-	for (size = 0; str[size]; size++)
-		p[size] = str[size];
-
-	return (p);
 }
