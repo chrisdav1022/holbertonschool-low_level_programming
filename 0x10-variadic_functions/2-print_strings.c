@@ -1,8 +1,8 @@
 #include "variadic_functions.h"
 /**
- *
- *
- *
+ * print_strings - print the string
+ * @separator: pointer to string
+ * @n: pointer to number of elements
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
