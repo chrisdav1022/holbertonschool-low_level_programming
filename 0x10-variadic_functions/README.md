@@ -1,0 +1,1 @@
+README to variadic function
