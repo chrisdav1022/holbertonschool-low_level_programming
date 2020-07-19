@@ -1,8 +1,8 @@
-#include"calc.h"
+#include "3-calc.h"
 /**
- *
- *
- *
+ * *get_op_func - column selector and verifier
+ * @s: pointer or operator
+ * Return: value to selector an f
  */
 int (*get_op_func(char *s))(int, int)
 {

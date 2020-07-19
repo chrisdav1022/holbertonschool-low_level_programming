@@ -1,7 +1,10 @@
-#include "calc.h"
+#include "3-calc.h"
 
 /**
- *
+ * main - main to the function
+ * @argc: argument counter
+ * @argv: argument variables
+¨* Return: return value int 0
  */
 
 int main(int argc, char *argv[])
