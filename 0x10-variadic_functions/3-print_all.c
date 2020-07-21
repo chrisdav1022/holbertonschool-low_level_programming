@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 
 /**
- * print_all - print the all in int, char, double and pointer char
+ * print_all - print the all in int, char, double and pointers char
  * @format: format the string
  * Return: return void
  */
