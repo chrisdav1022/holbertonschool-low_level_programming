@@ -1,5 +1,4 @@
 #include "lists.h"
-
 /**
  * print_list - print the list
  * @h: pointer to structur
