@@ -41,7 +41,7 @@ int _strlen(char *s)
 
 	while (s == NULL)
 	{
-		return(NULL);
+		return(0);
 	}
 
 	length = 0;
