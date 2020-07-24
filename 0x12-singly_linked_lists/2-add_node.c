@@ -21,10 +21,20 @@ list_t *add_node(list_t **head, const char *str)
 	if (str)
 	{
 		newn->str = strdup(str);
-		newn->len = strlen(newn->str);
+		newn->len = _strlen(newn->str);
 	}
 	newn->next = *head;
 	*head = newn;
 
 	return (newn);
+}
+
+int _strlen(char *s)
+{
+	int c, length;
+
+	length = 0;
+	for (c = 0; s[c] != '\0'; c++)
+		length++;
+	return (length);
 }
