@@ -1,10 +1,12 @@
 #include "lists.h"
+
 /**
  * add_node - add the node in list
  * @head: header to list
  * @str: string to list
  * Return: return size
  */
+
 list_t *add_node(list_t **head, const char *str)
 {
 	list_t *newn = NULL;
@@ -19,7 +21,7 @@ list_t *add_node(list_t **head, const char *str)
 	if(str)
 	{
 		newn->str = strdup(str);
-		newn->len = _strlen(newn->str);
+		newn->len = strlen(newn->str);
 	}
 	newn->next = *head;
 	*head = newn;
