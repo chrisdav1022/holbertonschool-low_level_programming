@@ -29,6 +29,12 @@ list_t *add_node(list_t **head, const char *str)
 	return (newn);
 }
 
+/**
+ * _strlen - return the length of a string
+ * @s: the string to check
+ *
+ * Return: the length of the string
+ */
 int _strlen(char *s)
 {
 	int c, length;
