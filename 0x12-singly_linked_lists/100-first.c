@@ -1,4 +1,6 @@
 #include "lists.h"
+void first(void) __attribute__ ((constructor));
+
 /**
  * first - first words
  *
