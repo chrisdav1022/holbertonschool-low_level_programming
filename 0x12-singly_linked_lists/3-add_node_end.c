@@ -35,6 +35,11 @@ list_t *add_node_end(list_t **head, const char *str)
 	return (newnode);
 }
 
+/**
+ * _strlen - strlen
+ * @s:pointer to string
+ * Return: length value string
+ */
 int _strlen(char *s)
 {
 	int c, length;
