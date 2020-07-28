@@ -39,6 +39,11 @@ int _strlen(char *s)
 {
 	int c, length;
 
+	while (s == NULL)
+	{
+		return (0);
+	}
+
 	length = 0;
 	for (c = 0; s[c] != '\0'; c++)
 		length++;
