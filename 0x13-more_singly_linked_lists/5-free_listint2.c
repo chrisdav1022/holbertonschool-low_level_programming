@@ -1,8 +1,11 @@
 #include "lists.h"
+
 /**
  * free_listint2 - free the list and null condition
  * @head: double pointer of head to list
+ * Return: return none
  */
+
 void free_listint2(listint_t **head)
 {
 	listint_t *i;
@@ -12,10 +15,10 @@ void free_listint2(listint_t **head)
 		return;
 	}
 
-	while (head)
+	while (*head)
 	{
-		i = head;
-		head = i->next;
+		i = *head;
+		*head = i->next;
 		free(i);
 	}
 }
