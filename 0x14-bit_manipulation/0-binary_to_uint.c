@@ -4,7 +4,7 @@
  * @n: value content decimal numbers
  * Return: return value binary
  */
-void print_binary(unsigned long int n)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int i = 0;
 
