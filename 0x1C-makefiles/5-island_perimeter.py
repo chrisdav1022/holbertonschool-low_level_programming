@@ -1,11 +1,8 @@
 #!/usr/bin/python3
-"""
-Return the perimeter of the island described in grid.
-"""
-
+"""the island described in grid."""
 
 def island_perimeter(grid):
-    """Return the perimeter of the island described in grid."""
+    """Return the perimeter of the island"""
     perimeter = 0
     for i in range(len(grid)):
         for j in range(len(grid[0])):
