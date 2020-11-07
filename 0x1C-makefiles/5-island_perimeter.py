@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """the island described in grid."""
 
+
 def island_perimeter(grid):
     """Return the perimeter of the island"""
     perimeter = 0
