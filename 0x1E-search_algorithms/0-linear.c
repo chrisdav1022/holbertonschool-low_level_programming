@@ -5,7 +5,6 @@
  * @array: Pointer to the first element
  * @size: size to number to array
  * @value: Value search
- *
  * Return: valor alocated or -1 if it's not there
  */
 
